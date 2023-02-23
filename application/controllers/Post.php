@@ -59,6 +59,12 @@ class Post extends CI_Controller{
         $this->load->view('post/lihat', $data);
         $this->load->view('templates/footer'); 
     }  
+	
+  public function hapuspost($id)
+    {
+       $this->Model_Post->delete($id);
+       redirect('Post');
+    }		
 
 }
 
