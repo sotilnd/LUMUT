@@ -1,9 +1,8 @@
 # LUMUT
-#user admin :
-#username : admin
-#pass : admin
+# user admin :
+# username : admin
+# pass : admin
 #
-#
-#user author :
-#username : author
-#pass : tes
+# user author :
+# username : author
+# pass : tes
